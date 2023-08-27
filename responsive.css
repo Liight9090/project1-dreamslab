@@ -1,0 +1,440 @@
+/* // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... } */
+
+
+@media(max-width: 768px) {
+
+    .container {
+        /* background-color: lightblue; */
+        width: 80%;
+        min-height: auto;
+        margin: auto;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+
+    main {
+        /* background-color: lightgray; */
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 80px 0;
+        width: 100%;
+    }
+
+    .herobox1{
+        /* background-color: lightsalmon; */
+        width: 600px;
+        height: 570px;    
+    }
+
+    .herobox1 h1,h2,p {
+        max-width: 80% ;
+    }
+
+    /* .herobox2{
+       
+        width: 90%;
+        margin-top: 50px;
+    } */
+
+    .herobox2{
+        /* background-color: lightgreen; */
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .herobox2 .item-box img{
+        width: 100%;
+    }
+
+    .herobox2 .hid {
+        display: none;
+    }
+
+
+    .image-content img {
+        width: 90%;
+    }
+
+    /* databox */
+
+    .databox .box {
+        width: 45%;
+        height: 48%;
+        background-color: #4526b1;
+        border-radius: 20px;
+    }
+
+    .databox h3 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .databox h2 {
+        font-size: 16px;
+        margin: 15px 0;
+    
+    }
+
+    .databox p {
+        font-size: 17px;
+        line-height: 16px;
+    }
+
+    .databox .box, .margin-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10px;
+    }
+
+    .container2 {
+        width: 700px;
+        min-height: 1000px;
+        margin: auto;
+        /* background-color: rgb(144, 144, 144); */
+        margin-top: 150px;
+    }
+
+    .icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: whitesmoke;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wrap-icon {
+        width: 30%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .wrap-icon img{
+        width: 30px;
+    }
+
+    .dis-icon-box p{
+        line-height: 22px;
+    }
+
+    .monteno-item {
+
+        width: 700px;
+        height: 680px;
+        /* background-color: aquamarine; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 100px auto
+    }
+
+    .newletter {
+        width: 100%;
+    }
+
+    .container2 {
+        margin: 0 auto;
+    }
+
+    .arrow-top svg{
+        display: none;
+    }
+
+    .testimonial {
+        /* background-color: red; */
+        min-height: 1000px;
+    }
+
+    .container-list {
+        /* background-color: aqua; */
+        margin-top: 50px;
+    }
+
+    .newletter-new {
+        margin-top: 40px;
+    }
+
+    .profile img {
+        width: 150px;
+        height: 230px;
+    
+    }
+
+    /* .herobox2 .hid {
+        display: block;
+    } */
+    /* Place the timelime to the left */
+    .timeline::after {
+    left: 20px;
+    }
+    
+    /* Full-width containers */
+    .container-timeline {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+    }
+    
+    /* Make sure that all arrows are pointing leftwards */
+    .container-timeline::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+    }
+    
+    /* Make sure all circles are at the same spot */
+    .left::after, .right::after {
+    left: 10px;
+    }
+    
+    /* Make all right containers behave like the left ones */
+    .right {
+    left: 0%;
+    }
+}
+
+
+
+@media (max-width: 576px) { 
+    .container {
+        /* background-color: lightblue; */
+        width: 80%;
+        min-height: auto;
+        margin: auto;
+    }
+
+    .herobox1 {
+        width: 100%;
+    }
+
+    .herobox2{
+        /* background-color: lightgreen; */
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .herobox2 .item-box img{
+        width: 100%;
+    }
+
+    .herobox2 .hid {
+        display: none;
+    }
+
+    .aboutus {
+        margin-top: -30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-content {
+        margin: auto;
+        width: 100%;
+        
+    }
+
+    .image-content .box1{
+        /* background-color: lightpink; */
+        min-height: 300px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aboutus-content {
+        width: 100%;
+    }
+
+    .aboutus-content .about-us{
+        width: 100%;
+        /* background-color: aqua; */
+    }
+
+    .our-speciality {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .databox {
+        width: 100%;
+    }
+
+    .icon-box {
+
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .dis-icon-box {
+        width: 100%;
+    }
+
+    .monteno-item {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+    }
+
+    .monteno-item-box {
+        width: 90%;
+    }
+
+    .container2 {
+        width: 100%;
+    }
+    
+    .newletter  {
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 90%;
+    }
+    .newletter h1 {
+        font-size: 30px;
+    }
+
+    .newletter-subscribe {
+        width: 60%;
+    }
+
+    .newletter-subscribe form input,.newletter-btn{
+        font-size: 12px;
+    }
+
+    .team-card {
+        width: 100%;
+    }
+
+    .team-card .wrap-box-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-card .wrap-box-card .box-card {
+        width: 50%;
+        margin-top: 60px;
+    }
+
+    .team-card .wrap-box-card .box-card img {
+        width: 80%;
+    }
+
+    .branding {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .branding .branding-box {
+        width: 40%;
+        /* background-color: red; */
+    }
+
+    .faq {
+        margin-top: 100px;
+    }
+
+    .container-list {
+        margin-top: -100px;
+    }
+
+    .newletter-new {
+        margin-top: 100px;
+    }
+
+    .footer {
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 380px) { 
+
+
+
+
+    header .logo img{
+        width: 100px;
+    }
+
+    /* .header .burger-menu svg{
+        width: 100px;
+        height: 100px;
+    } */
+
+    .herobox2{
+        /* background-color: lightgreen; */
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: red; */
+        margin-top: 100px;
+    }
+
+   
+
+    .spiciality-box {
+        width: 100%;
+        height: auto;
+        margin-top: -80px;
+    }
+
+    .join-box .description {
+        width: 90%;
+        margin: 0px;
+        text-align: center;
+        margin-left: 18px;
+    }
+    
+    .newletter-subscribe form input, .newletter-btn{
+        font-size: 10px;
+    }
+
+    .testimonial {
+        /* background-color: red; */
+        height: 1600px;
+    }
+
+    .container-list {
+        height: 500px;
+        /* background-color: red; */
+        margin-top: 20px;
+
+    }
+}
+
+
+
+
+

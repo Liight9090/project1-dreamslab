@@ -1,0 +1,114 @@
+.join-section {
+    min-height: 700px;
+    /* background-color: brown; */
+    margin-top: 200px;
+}
+
+.join-box {
+    min-height: 450px;
+    /* background-color: blue; */
+}
+
+.join-box .description {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.description h3 {
+    color: white;
+    font-family: Gilroy;
+    font-size: 30px;
+}
+
+.join-box hr{
+    width: 7%;
+    margin: auto;
+    background-color: #fd562a;
+    height: 5px;
+    border: none;
+    margin-top: 18px;
+}
+
+.icon-box {
+    height: 600px;
+    /* background-color: rgb(81, 12, 12); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.dis-icon-box {
+    width: 48.5%;
+    height: 286px;
+    background-color: #4526b1;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrap-icon {
+    width: 50%;
+    margin-left: 60px;
+}
+
+.icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-box h3{
+    width: unset;
+    color: #fd562a;
+    font-family: Roboto;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.icon-box h2 a{
+    width: unset;
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.icon-box h2::after{
+    content: "";
+    width: unset;
+    background-color: unset;
+}
+
+.monteno-item {
+    margin: auto;
+    margin-top: 150px;
+    height: 680px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.monteno-item-box {
+    width: 23%;
+    /* background-color: #fd562a; */
+    height: 330px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.monteno-item-box img {
+    width: 100%;
+    height: 100%;
+}
+
+

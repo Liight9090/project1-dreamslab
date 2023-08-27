@@ -1,0 +1,279 @@
+.team-card {
+    min-height: 488px;
+    display: flex;
+    align-items: center;
+
+}
+
+.wrap-box-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-card {
+    height: 350px;
+    background-color: #4526b1;
+    width: 23%;
+    position: relative;
+    border-radius: 10px;
+}
+
+
+
+.box-card .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-card {
+    position: relative;
+}
+
+.box-card h3{
+    font-size: 25px;
+    font-family: Gilroy;
+    color: white;
+    margin-top: 25px;
+    position: absolute;
+    bottom: 80px;
+}
+
+.box-card p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.box-card img{
+    width: 190px;
+    position: absolute;
+    top: -10px;
+    border-radius: 10px;
+}
+
+
+/* partner section  */
+section.partner {
+    min-height: 500px;
+    /* background-color: brown; */
+}
+
+.branding {
+    height: 416px;
+    /* background-color: #6a9094; */
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    gap: 1px;
+}
+
+.branding-box {
+    outline: 0.5px solid rgba(255, 255, 255, 0.242);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.branding-box img {
+    opacity: 50%;
+    transition: 0.3s;
+}
+
+.branding-box:hover img {
+    opacity: 100%;
+}
+
+.testimonial {
+    margin-top: 150px;
+    min-height: 1000px;
+
+    /* background-color: blueviolet; */
+    display: flex;
+}
+
+.img-dis {
+    height: 500px;
+    width: 50%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-dis img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.testimonial-text {
+    height: 500px;
+    width: 50%;
+    /* background-color: rgb(45, 174, 49); */
+}
+
+.testimonial-detail h3{
+    font-size: 30px;
+}
+
+.testimonial-detail h3::after{
+    content: '';
+    display: block;
+    background-color: #fd562a;
+    width: 5%;
+    height: 5px;
+    margin: 10px 0;
+}
+
+.testimonial-detail h1{
+    font-size: 50px;
+}
+
+.testimonial p{
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+.testimonial p .left-quote {
+    margin: 20px;
+    position: relative;
+}
+
+.testimonial-profile {
+    width: 100%;
+    height: 80px;
+    /* background-color: #fd562a; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.profile-name {
+    margin-left: 30px;
+    color: white;
+    font-family: Gilroy;
+    font-size: 20px;
+}
+
+.faq {
+    /* background-color: #6f5c57; */
+    min-height: 600px;
+}
+
+.container-list {
+    /* background-color: aqua; */
+    min-height: 300px;
+    margin-top: -100px;
+    display: flex;
+}
+
+.container-list ul li {
+    font-family: Gilroy;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.container-list ::marker {
+    color: white;
+    font-size: 25px;
+    content: "+  ";
+}
+
+.list1 {
+    padding-left: 40px;
+    /* background-color: #fd562a; */
+    width: 50%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.newletter {
+    min-height: 216px;
+    /* background-color: #fd562a; */
+    margin-top: 200px;
+    display: flex;
+    background-color: #4526b1;
+    border-radius: 10px;
+    margin-bottom: 150px;
+}
+
+.newletter-new {
+    margin-top: 60px;
+
+}
+
+.newbtn {
+    background-color: #fd562a;
+    font-size: 23px;
+}
+
+.h1-nft {
+    width: 100%;
+    font-size: 40px;
+}
+
+section.social-contact {
+    min-height: 300px;
+    /* background-color: #424242; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-company {
+    margin-bottom: 30px;
+}
+
+.logo-company, .company-description{
+    font-family: Roboto;
+    font-size: 20px;
+    color: white;
+    line-height: 29px;
+    text-align: center;
+    /* background-color: red; */
+    width: 50%;
+}
+
+a svg {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+svg {
+    fill: #ffffff;
+}
+
+
+.footer {
+    /* background-color: red; */
+    margin-top: 70px;
+    min-height: 100px;
+    border-top: 1px solid rgba(255, 255, 255, 0.375);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.arrow-top svg{
+    /* height: 10px; */
+    width: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 50px;
+    opacity: 40%;
+}

@@ -1,0 +1,284 @@
+
+/* font */
+@font-face {
+    font-family: Roboto;
+    src: url(./font/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(./font/Gilroy-Bold.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* desktop view  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./image/bg-element-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    /* background-color: lightblue; */
+    width: 1200px;
+    min-height: 1000px;
+    margin: auto;
+}
+
+/* header section  */
+
+header {
+    /* background-color: lightcoral; */
+    min-height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 37px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    font-size: 20px;
+    font-family: Gilroy, sans-serif;
+}
+
+.burger-menu     {
+    display: none;
+}
+
+button {
+    font-family: Gilroy, sans-serif;
+    background-color: unset;
+    padding: 14px 40px;
+    color: white;
+    font-size: 20px;
+    border: 3px solid #fd562a;
+    border-radius: 50px;
+}
+
+/* main content section  */
+main {
+    /* background-color: lightgray; */
+    width: 100%;
+    height: 570px;
+    display: flex;
+    margin: 80px 0;
+}
+
+.herobox1{
+    /* background-color: lightsalmon; */
+    width: 50%;
+    height: 570px;    
+}
+
+h1,h2 {
+    color: white;
+    font-family: Gilroy;
+}
+
+.herobox1 h1,h2,p {
+    max-width: 80% ;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 40px 0;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    background-color: #fd562a;
+    width: 5%;
+    height: 5px;
+    margin: 10px 0;
+}
+
+p {
+    font-family: Roboto;
+    font-size: 20px;
+    color: white;
+    line-height: 35px;
+}
+
+.herobox1 a {
+    display: inline-block;
+    margin: 30px 0;
+}
+
+.herobox1 button, .aboutus-content button {
+    background-color: #fd562a;
+}
+
+.herobox2{
+    /* background-color: lightgreen; */
+    width: 55%;
+    height: 570px; 
+    display: grid;   
+    grid-template: repeat(3, 1fr)/ repeat(3, 1fr);
+    gap: 20px;
+}
+
+.herobox2 img {
+    width:200px;
+}
+
+/* about us section  */
+
+.aboutus {
+    min-height: 600px;
+    /* background-color: #fd582a83; */
+    display: flex;
+    margin-top: 300px;
+}
+
+.image-content {
+    /* background-color: aquamarine; */
+    display: flex;
+    min-height: 700px;
+    width: 50%;
+}
+
+.image-content .box1{
+    /* background-color: lightpink; */
+    min-height: 300px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-img-holder {
+    background-color: #7153d9;
+    height: 300px;
+    width: 90%;
+    
+}
+
+.image-content .display-column{
+    display: flex;
+    flex-direction: column;
+    min-height: 600px;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image-content .display-column .box2 {
+    background-color: #4526b1;
+    width: 90%;
+    height: 300px;
+}
+
+.image-content .display-column .box3 {
+    background-color: #4c22e1;
+    width: 90%;
+    height: 300px;
+}
+
+.aboutus .bg-img-holder, .box2, .box3{
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutus-content {
+    /* background-color: rgb(164, 164, 255); */
+    min-height: 600px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.aboutus-content button {
+    margin-top: 20px;
+}
+
+.our-speciality {
+    /* background-color: lightpink; */
+    margin-top: 200px;
+    min-height: 600px;
+    display: flex;
+}
+
+.spiciality-box {
+    min-height: 600px;
+    /* background-color: rgb(83, 83, 83); */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.databox {
+    /* background-color: #fd562a; */
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    color: white;
+    font-family: Gilroy;
+    
+}
+
+.databox .box {
+    width: 45%;
+    height: 48%;
+    background-color: #4526b1;
+    border-radius: 20px;
+}
+
+.databox .margin-box {
+    width: 45%;
+    height: 48%;
+    background-color: #4526b1;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.databox h3 {
+    font-size: 50px;
+}
+
+.databox h2 {
+    font-size: 22px;
+    margin: 15px 0;
+
+}
+
+.databox .box, .margin-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+
+
+
